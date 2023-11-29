@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;400&family=Varela+Round&display=swap');
+
+html{
+    background-color: #d3c999f5;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hesapmakinesi{
+    position: relative;
+}
+.input{
+    position: absolute;
+    left: 23%;
+    width: 812px;
+    height: 100px;
+    top: 50px;
+    background-color: #153462;  
+}
+.sutun{
+    position: absolute;
+    top: 150px;
+    left: 23%;
+    background-color:#BAD1C2;
+    text-align: center;
+    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(5,100px);
+}
+.işaretler{
+    background-color: #3D8361;
+    color: #D6CDA4;
+}
+button{
+    font-weight: 500;
+    border: 3px solid;
+    border-color: rgb(134, 98, 7);
+    border-radius: 10px;
+    background-color: #F6F6C9;
+    color: #336a63;
+    font-size: xx-large;
+}
+button:focus{
+    background-color:#61764B;
+    color: #FAD6A5;
+}
+input{
+    font-size:80px;
+    font-weight: 500;
+    color: #61d88b;
+}
+#esittir{
+    background-color: #5F9DF7;
+    color:wheat; 
+}
+
+#temizle{
+    background-color: #B73E3E; 
+    color:wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
